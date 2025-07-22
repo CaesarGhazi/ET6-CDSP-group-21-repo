@@ -1,6 +1,8 @@
-exclude = ["**/*.ipynb"]
+[exclude]
+files = ["**/*.ipynb"]
 
 # Optional: If you want a longer line length globally
-line-length = 100
+[line-length]
+maximum = 100
 
 # Optional: If you want to ignore specific rules globally
